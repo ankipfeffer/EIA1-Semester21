@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/bg.png);
+   
+    
+}
+
+nav{
+    width: 800px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none; 
+    background-color: black;
+    border: 5px solid;	
+    border-radius: 5px; 
+    width: 260px;
+    position: sticky; 
+    float: right;
+    }
+    nav li {
+        margin: 0.5em; 
+        background-color: black;
+        display: inline;
+      }
+      nav a {
+        text-decoration: none; 
+        font-weight: bold;
+        color: white; 
+      }
+      nav a:focus,
+      nav a:hover,
+      nav a:active {    
+        text-decoration:underline;
+      }
+
+
+.kreis{
+    border-radius: 0px 0px 400px 400px;
+    background: #b63514;
+    margin-top: -10px;
+    width: 800px;
+    height: 450px; 
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.portfolio{
+    font-size: 10em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px 20px 0px 20px;
+    
+}
+
+.lorem{
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    float: right;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: -40px 85px 10px 320px;
+   
+}
+
+.loremipsum{
+    font-size: 1em;
+    color: white;
+    float: right;
+    margin: -10px 115px 10px 320px;
+   
+}
+
+a .fb{
+    width: 30px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 70%;
+    
+}
+
+img[src="images/icon_facebook.png"]:focus,
+img[src="images/icon_facebook.png"]:hover,
+img[src="images/icon_facebook.png"]:active{opacity: 100%;}
+
+main{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+    
+}
+
+img, video{
+    width: 800px; 
+   
+}
+
+h3{
+    color:#b63514;
+    font-size: 2em;
+   
+}
+
+input{
+    background-color: gray;
+    color: white;
+    font-size: 1em;
+}
+
+textarea{
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Datenschutz{
+    color: gray;
+    font-size: 1em;
+}
+
+.Datenschutz strong{
+    text-decoration: underline;
+}
+button{
+    background-color: gray;
+    color: white;
+    font-size: 1em;
+}
