@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url("fonts/jellyka_delicious_cake.ttf") format('truetype');
+    src: url("fonts/jellyka_delicious_cake-webfont.woff") format('woff');
+    src: url("fonts/jellyka_delicious_cake-webfont.woff2") format('woff2');
+}
+
+body{
+    background-image: url(images/bg.png);
+    color: white;
+    font-family: 'myFirstFont', arial, sans-serif;
+}
+
+.wrapper{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+img[src="images/wrapperbg.png"] {
+    width: 800px;
+    height: auto;
+}
+
+.text{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    font-family: 'myFirstFont';
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 50sspx;
+}
+
+p{
+    font-size: 29px;
+}
