@@ -1,0 +1,45 @@
+body{
+    background-image: url(images/bg.png);
+    color: white;
+}
+
+.wrapper{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+img[src="images/wrapperbg.png"] {
+    width: 800px;
+    height: auto;
+}
+
+.busch{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.pinguin{
+    position:absolute;
+    bottom: -40px;
+    right: 0px;
+}
+
+.text{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+p{
+    font-size: 20px;
+}
