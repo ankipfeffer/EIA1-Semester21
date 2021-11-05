@@ -1,0 +1,65 @@
+body{
+    background-image: url(images/bg.png);
+    color: white;
+}
+
+.wrapper{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+img[src="images/wrapperbg.png"] {
+    width: 800px;
+    height: auto;
+}
+
+.text{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    font-size: 1.5em;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    background-color:white;
+    color: gray;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+textarea{
+    background-color:white;
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.box label{
+    display: inline;;
+}
+.box input{
+    display: inline;
+}
+
+button{
+    background-color:white;
+    color: gray;
+    font-size: .7em;
+    border-radius: 5px;
+}
