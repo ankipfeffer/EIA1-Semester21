@@ -1,0 +1,76 @@
+body{
+    background-image: url(images/bg.png);
+    color: white;
+}
+
+.wrapper{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+img[src="images/wrapperbg.png"] {
+    width: 800px;
+    height: auto;
+}
+
+.text{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.stern1 img{
+    position: absolute;
+    top: 340px;
+    left: 90px;
+}
+.stern1 img.hover{
+    opacity: 0;
+}
+.stern1:hover img.hover{
+    opacity: 1;
+}
+
+.stern2 img{
+    position: absolute;
+    top: 230px;
+    left: 220px;
+}
+.stern2 img.hover{
+    opacity: 0;
+}
+.stern2:hover img.hover{
+    opacity: 1;
+}
+
+.stern3 img{
+    position: absolute;
+    top: 390px;
+    left: 350px;
+}
+.stern3 img.hover{
+    opacity: 0;
+}
+.stern3:hover img.hover{
+    opacity: 1;
+}
+
+.stern4 img{
+    position: absolute;
+    top: 280px;
+    right: 180px;
+}
+.stern4 img.hover{
+    opacity: 0;
+}
+.stern4:hover img.hover{
+    opacity: 1;
+}
