@@ -33,6 +33,12 @@ section {
     background: white;
 }
 
+img:hover{
+    opacity: 60%;
+}
+
+
+
 footer p {
     margin-top: 50px;
     font-size: 10px;
