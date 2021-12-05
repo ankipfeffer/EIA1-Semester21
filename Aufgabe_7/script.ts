@@ -35,5 +35,5 @@ document.getElementById("untenmitte").addEventListener("click", function () { pl
 document.getElementById("untenrechts").addEventListener("click", function () { playSample(sound[8]); });
 document.getElementById("playbutton").addEventListener("click", playbeat);
 
-})
+});
 }
