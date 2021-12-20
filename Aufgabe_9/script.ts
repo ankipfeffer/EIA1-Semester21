@@ -74,15 +74,14 @@ namespace P2 {
     }
     
     // Aufgabe lässt sich abhaken bzw den Haken rückgängig machen
-    // hier wird irgendwie immer nur die oberste Aufgabe ausgewählt anstatt die Aufgabe die man anklickt :/
     function erledigen(): void {
     
-        if (document.getElementById("check").getAttribute("class") == "far fa-hand-point-right") {
-            document.getElementById("check").setAttribute("class", "fas fa-thumbs-up");
+        if (this.getAttribute("class") == "far fa-hand-point-right") {
+            this.setAttribute("class", "fas fa-thumbs-up");
             
         }
-        else if (document.getElementById("check").getAttribute("class") == "fas fa-thumbs-up") {
-            document.getElementById("check").setAttribute("class", "far fa-hand-point-right");
+        else if (this.getAttribute("class") == "fas fa-thumbs-up") {
+            this.setAttribute("class", "far fa-hand-point-right");
         }
     }
     
